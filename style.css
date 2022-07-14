@@ -1,0 +1,121 @@
+body {
+  font-family: "Potta One", cursive;
+  background: radial-gradient(
+    circle at 3.1% 8.2%,
+    rgb(248, 249, 212) 0%,
+    rgb(239, 208, 208) 98.2%
+  );
+}
+
+hr {
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Rubik Moonrocks", cursive;
+  text-align: left;
+  font-size: 40px;
+}
+li {
+  color: rgb(86, 80, 80);
+  list-style: none;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 10px;
+}
+small {
+  font-family: "Rubik Moonrocks", cursive;
+  font-size: 20px;
+}
+footer {
+  font-size: 10px;
+  text-align: center;
+}
+.conteiner {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.time-date {
+  font-size: 13px;
+}
+.fa-3x {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+
+  color: rgba(255, 255, 0, 0.983);
+
+  transition: all 200ms ease-in-out;
+}
+.fa-3x :hover {
+  color: rgba(255, 166, 0, 0.888);
+  cursor: pointer;
+}
+.sunnyWeather {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 250px;
+}
+.today {
+  font-size: 70px;
+  line-height: 1;
+  font-family: "Rubik Moonrocks", cursive;
+}
+.unites {
+  position: relative;
+  top: -35px;
+}
+.search-form {
+  margin-bottom: 20px;
+}
+
+.lower {
+  text-align: right;
+  font-size: 20px;
+}
+
+.col {
+  padding: 15px;
+  text-align: center;
+}
+.iconSun {
+  color: rgba(255, 255, 0, 0.983);
+  font-size: larger;
+  padding: 10px;
+  text-align: center;
+}
+.iconRain {
+  color: rgb(104, 180, 227);
+  font-size: larger;
+  padding: 10px;
+  text-align: center;
+}
+
+.iconCloud {
+  color: rgb(104, 180, 227);
+  font-size: larger;
+  font-size: larger;
+  padding: 10px;
+  text-align: center;
+}
+.date {
+  text-align: center;
+  font-size: smaller;
+  padding: 10px 10px 40px 10px;
+}
+.weather {
+  border: 1px solid grey;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 15px;
+  max-width: 600px;
+  background: radial-gradient(
+    circle at 3.1% 8.2%,
+    rgb(248, 250, 107) 0%,
+    rgb(238, 148, 148) 98.2%
+  );
+}
